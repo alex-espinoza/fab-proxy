@@ -92,6 +92,7 @@ code {
 }
 
 .fab-card>.watermark {
+  display: none;
   color: white;
   transform: rotate(-45deg);
   font-size: 0.42in;

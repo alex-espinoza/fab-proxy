@@ -22,7 +22,7 @@ import cards from './cards.js'
 function FABCard(props) {
   const { card, watermarkOptions, defaultWatermark, addCardToPrint, removeCardToPrint } = props
   const [watermark, setWatermark] = React.useState(defaultWatermark);
-  const imgUrl = "https://images.thepitchzone.com/cards/" + card.id + ".png";
+  const imgUrl = "https://fabdb2.imgix.net/cards/printings/" + card.ed + ".png";
   return (
     <Card className="fab-card">
       <Card.Img src={imgUrl} />
